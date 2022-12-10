@@ -9,11 +9,12 @@ body {
     margin: 0;
     min-height: 100vh;
     background-color: rgb(15, 212, 153);
-    background-image: url("https://marketplace.canva.com/EAE_MhKppyc/1/0/1600w/canva-colourful-gradient-mesh-be-yourself-motivational-quote-desktop-wallpaper-hAM_BmFBbQY.jpg");
+    background-image: radial-gradient(orange,pink,khaki);
     color: #000;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
     text-align: center;
+    text-transform: capitalize;
     display: flex;
     align-items: center;
     justify-content: center;
