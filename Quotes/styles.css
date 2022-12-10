@@ -2,7 +2,6 @@
 
 html {
     box-sizing: border-box;
-
 }
 
 body {
@@ -20,16 +19,16 @@ body {
     justify-content: center;
 }
 
-.quote-container {
+.quotes-container {
     width: auto;
     max-width: 900px;
     padding: 20px 30px;
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
-    border: 25px solid rgb(236, 187, 95);
+    border: 25px double darkcyan;
 }
 
-.quote-text {
+.quote-texts {
     font-size: 2.75rem;
 }
 
@@ -41,7 +40,7 @@ body {
     font-size: 4rem;
 }
 
-.quote-author {
+.quotes-author {
     margin-top: 15px;
     font-size: 2rem;
     font-weight: 400;
@@ -95,11 +94,11 @@ button:active {
 }
 
 @media screen and (max-width: 1000px) {
-    .quote-container {
+    .quotes-container {
         margin: auto 10px;
     }
 
-    .quote-text {
+    .quote-texts {
         font-size: 2.5rem;
     }
 }
